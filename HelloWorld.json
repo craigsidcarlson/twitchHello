@@ -1,0 +1,73 @@
+{
+  "allowHttpBackend": false,
+  "backendCommand": "node backend -c \"da029kmjxj2pflg66s30z46y2ycsrw\" -s \"uz/ilLfCfKbevqSUrTd218jFQXINjNTIsc+aESYL/iE=\" -o \"97443887\"",
+  "backendFolderName": "extensions-hello-world\\services",
+  "certificateExceptions": [],
+  "extensionViews": [],
+  "frontendCommand": "",
+  "frontendFolderName": "extensions-hello-world\\public",
+  "manifest": {
+    "anchor": "video_overlay",
+    "assetUrls": [],
+    "authorName": "Craigums",
+    "bitsEnabled": false,
+    "canInstall": true,
+    "configUrl": "https://localhost:8080/config.html",
+    "configurationLocation": "none",
+    "description": "",
+    "eulaTosUrl": "",
+    "hasChatSupport": false,
+    "iconUrl": "",
+    "iconUrls": {},
+    "id": "da029kmjxj2pflg66s30z46y2ycsrw",
+    "installationCount": -42,
+    "liveConfigUrl": "",
+    "name": "Craigums",
+    "panelHeight": 0,
+    "privacyPolicyUrl": "",
+    "requestIdentityLink": false,
+    "requiredBroadcasterAbilities": [],
+    "screenshotUrls": [],
+    "sku": "",
+    "state": "Testing",
+    "subscriptionsSupportLevel": "none",
+    "summary": "",
+    "supportEmail": "",
+    "vendorCode": "",
+    "version": "0.0.1",
+    "viewerSummary": "",
+    "viewerUrl": "",
+    "viewerUrls": {
+      "component": "https://localhost:8080/video_component.html",
+      "videoOverlay": "https://localhost:8080/video_overlay.html"
+    },
+    "views": {
+      "component": {
+        "aspectHeight": 3000,
+        "aspectRatioX": 300,
+        "aspectRatioY": 200,
+        "aspectWidth": 4000,
+        "autoscale": true,
+        "canLinkExternalContent": false,
+        "scalePixels": 1024,
+        "size": 300,
+        "targetHeight": 4000,
+        "viewerUrl": "https://localhost:8080/video_component.html",
+        "zoom": true,
+        "zoomPixels": 1024
+      },
+      "config": {
+        "canLinkExternalContent": false,
+        "viewerUrl": "https://localhost:8080/config.html"
+      },
+      "videoOverlay": {
+        "canLinkExternalContent": false,
+        "viewerUrl": "https://localhost:8080/video_overlay.html"
+      }
+    },
+    "whitelistedConfigUrls": [],
+    "whitelistedPanelUrls": []
+  },
+  "name": "HelloWorld",
+  "version": 1
+}
